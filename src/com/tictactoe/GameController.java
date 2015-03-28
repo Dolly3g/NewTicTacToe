@@ -15,7 +15,7 @@ public class GameController {
     }
 
     public void visitCell(int location, CellView cell) {
-        game.markOn(location,cell);
+        game.markOn(location, cell);
     }
 
     public void recordMark(int location) {
